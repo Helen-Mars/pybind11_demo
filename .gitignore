@@ -1,0 +1,21 @@
+# 忽略编译输出
+build/
+dist/
+*.so
+*.pyd
+*.o
+*.a
+
+# 忽略 Python 缓存文件
+__pycache__/
+*.pyc
+*.pyo
+
+# 忽略虚拟环境
+venv/
+env/
+.env
+
+# 忽略临时文件
+*.tmp
+*.log
